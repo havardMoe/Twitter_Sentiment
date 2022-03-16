@@ -1,0 +1,1240 @@
+[
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:50 +0000 2014",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        46,
+                        54
+                    ],
+                    "text": "Ukraine"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "id": 4217468661,
+                    "id_str": "4217468661",
+                    "indices": [
+                        56,
+                        71
+                    ],
+                    "name": "Roland Urabe",
+                    "screen_name": "MsIntervention"
+                },
+                {
+                    "id": 1265082677646016523,
+                    "id_str": "1265082677646016523",
+                    "indices": [
+                        72,
+                        86
+                    ],
+                    "name": "Firstmate1060 \ud83c\uddfa\ud83c\uddf8\u2693\ufe0f\ud83c\udf0a\ud83c\udf0a\ud83c\udf0a\ud83c\udf0a\ud83c\udf0a\ud83c\udf0a",
+                    "screen_name": "Firstmate1060"
+                }
+            ]
+        },
+        "favorite_count": 2,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018592406769664,
+        "id_str": "462018592406769664",
+        "in_reply_to_screen_name": "MsJulieLenarz",
+        "in_reply_to_status_id": 461890866483695617,
+        "in_reply_to_status_id_str": "461890866483695617",
+        "in_reply_to_user_id": 431969214,
+        "in_reply_to_user_id_str": "431969214",
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "text": "Putin calls this POS the legitimate leader of #Ukraine\n\n@MsIntervention @FirstMate1060",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sat Apr 20 14:22:41 +0000 2013",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "All power corrupts *** Obammunism corrupts absolutely",
+            "favourites_count": 30983,
+            "follow_request_sent": null,
+            "followers_count": 2199,
+            "following": null,
+            "friends_count": 1133,
+            "geo_enabled": false,
+            "id": 1367140224,
+            "id_str": "1367140224",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 0,
+            "location": "gab.ai/pRESIDENT_ALIEN",
+            "name": "\u274c \u043f\u0420\u0415\u0417\u0418\u0414\u0415\u041d\u0422 \u0418\u041d\u041e\u0421\u0422\u0420\u0410\u041d\u0415\u0426 \u274c",
+            "notifications": null,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1367140224/1530243335",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/921585388057235456/mfdnLOaP_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/921585388057235456/mfdnLOaP_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "pRESIDENT_ALIEN",
+            "statuses_count": 73580,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:48 +0000 2014",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "fb.me/6Cx3wk2Zz",
+                    "expanded_url": "http://fb.me/6Cx3wk2Zz",
+                    "indices": [
+                        115,
+                        137
+                    ],
+                    "url": "http://t.co/7MZfb9BwEz"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018580800733184,
+        "id_str": "462018580800733184",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "possibly_sensitive": false,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+        "text": "Days after acting Defense Minister Mykhailo Koval warned \"the Armed Forces are not ready for this,\" Ukraine has... http://t.co/7MZfb9BwEz",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Mon Aug 30 02:02:12 +0000 2010",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "SGX Contra Stock Trading Investing Day Trading \r\n\r\nto keep updated with the latest consolidated market news",
+            "favourites_count": 0,
+            "follow_request_sent": null,
+            "followers_count": 760,
+            "following": null,
+            "friends_count": 0,
+            "geo_enabled": false,
+            "id": 184627206,
+            "id_str": "184627206",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 0,
+            "location": "singapore",
+            "name": "SGmarket_talk",
+            "notifications": null,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184627206/1409981385",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/508122924281118720/Xln9zGqT_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/508122924281118720/Xln9zGqT_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "SGmarket_talk",
+            "statuses_count": 198096,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://www.facebook.com/pages/SGX-Contra-Stock-Trading-Investing-Day-Trading/140859962644312",
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:48 +0000 2014",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "id": 20182089,
+                    "id_str": "20182089",
+                    "indices": [
+                        3,
+                        18
+                    ],
+                    "name": "West Wing Reports",
+                    "screen_name": "WestWingReport"
+                }
+            ]
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018580478197762,
+        "id_str": "462018580478197762",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "retweeted_status": {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Thu May 01 23:27:04 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 2,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 462010344224088064,
+            "id_str": "462010344224088064",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "en",
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 4,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "text": "Friday: Russia/Ukraine tops the agenda for German Chancellor Merkel's visit w/President. They'll hold an 11:40 news conf./Rose Garden",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu Feb 05 20:12:05 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Paul Brandus: 4x author, speaker 7 presidential libraries. Dow Jones/MarketWatch columnist. Private sector risk analysis. 5 yrs Moscow. 5 NBC/CNBC",
+                "favourites_count": 7462,
+                "follow_request_sent": null,
+                "followers_count": 374612,
+                "following": null,
+                "friends_count": 1266,
+                "geo_enabled": true,
+                "id": 20182089,
+                "id_str": "20182089",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 6417,
+                "location": "White House & elsewhere ('08-)",
+                "name": "West Wing Reports",
+                "notifications": null,
+                "profile_background_color": "9AE4E8",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/20182089/1594586413",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/692726797197119488/UEg5exR4_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/692726797197119488/UEg5exR4_normal.png",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "BDDCAD",
+                "profile_sidebar_fill_color": "DDFFCC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "WestWingReport",
+                "statuses_count": 127600,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "https://www.amazon.com/s?k=Paul+Brandus&ref=nb_sb_noss_2",
+                "utc_offset": null,
+                "verified": true,
+                "withheld_in_countries": []
+            }
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "RT @WestWingReport: Friday: Russia/Ukraine tops the agenda for German Chancellor Merkel's visit w/President. They'll hold an 11:40 news con\u2026",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Jul 28 03:54:21 +0000 2011",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "\ud83c\udff3\ufe0f\u200d\ud83c\udf08\u267f\ufe0f\ud83d\udc28\ud83e\udd19\ud83c\udffc",
+            "favourites_count": 92155,
+            "follow_request_sent": null,
+            "followers_count": 271,
+            "following": null,
+            "friends_count": 370,
+            "geo_enabled": true,
+            "id": 343820288,
+            "id_str": "343820288",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 50,
+            "location": "4\ufe0f\u20e30\ufe0f\u20e31\ufe0f\u20e3",
+            "name": "Devin Alexander",
+            "notifications": null,
+            "profile_background_color": "EDECE9",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/343820288/1411188833",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/965770872417062912/8f80Hrag_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/965770872417062912/8f80Hrag_normal.jpg",
+            "profile_link_color": "088253",
+            "profile_sidebar_border_color": "D3D2CF",
+            "profile_sidebar_fill_color": "E3E2DE",
+            "profile_text_color": "634047",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "DEV426ALEX",
+            "statuses_count": 82733,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:44 +0000 2014",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018565957513216,
+        "id_str": "462018565957513216",
+        "in_reply_to_screen_name": "GicAriana",
+        "in_reply_to_status_id": 461999995609419776,
+        "in_reply_to_status_id_str": "461999995609419776",
+        "in_reply_to_user_id": 2272111265,
+        "in_reply_to_user_id_str": "2272111265",
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "Russia has indeed invaded Ukraine &amp; now controls part of the country. The world must redefine what constitutes war. Now.",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Jan 10 03:26:43 +0000 2014",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Writer, activist, political and legal analyst. Ukraine, and Russia's unlawful war of aggression.\n\nDirector, Direct Initiative International Centre for Ukraine",
+            "favourites_count": 77980,
+            "follow_request_sent": null,
+            "followers_count": 26835,
+            "following": null,
+            "friends_count": 760,
+            "geo_enabled": false,
+            "id": 2272111265,
+            "id_str": "2272111265",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 702,
+            "location": "Toronto, Utrecht, Lviv",
+            "name": "ArianaGic/\u0410\u0440\u0456\u044f\u043d\u0430\u0490\u0456\u0446\u044c",
+            "notifications": null,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2272111265/1645847732",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1493097164704296964/nRkDJ31__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1493097164704296964/nRkDJ31__normal.jpg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "BDDCAD",
+            "profile_sidebar_fill_color": "DDFFCC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "GicAriana",
+            "statuses_count": 98382,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://thestartingpoint.net",
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:44 +0000 2014",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018565072113664,
+        "id_str": "462018565072113664",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "text": "\"Vote Dark Side: 'Darth Vader' Runs for Mayor in Ukraine\" just what the country needed",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Mar 11 21:14:26 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "aot & fma brainrot",
+            "favourites_count": 107663,
+            "follow_request_sent": null,
+            "followers_count": 817,
+            "following": null,
+            "friends_count": 3039,
+            "geo_enabled": true,
+            "id": 23831383,
+            "id_str": "23831383",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 15,
+            "location": null,
+            "name": "tiana \ud83c\udf80",
+            "notifications": null,
+            "profile_background_color": "09947F",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23831383/1646344218",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1498851729110179847/KIRPzN86_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1498851729110179847/KIRPzN86_normal.jpg",
+            "profile_link_color": "E81C4F",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "8F0707",
+            "profile_text_color": "BAB6BA",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "jaimelannisters",
+            "statuses_count": 85643,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://letterboxd.com/cerseilannister",
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:42 +0000 2014",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "naturalgaseurope.com/imf-warnings-u\u2026",
+                    "expanded_url": "http://www.naturalgaseurope.com/imf-warnings-ukraine-ties-russia?utm_content=bufferf3c6e&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+                    "indices": [
+                        84,
+                        106
+                    ],
+                    "url": "http://t.co/ov2Hgj1gxA"
+                }
+            ],
+            "user_mentions": [
+                {
+                    "id": 725093192958357504,
+                    "id_str": "725093192958357504",
+                    "indices": [
+                        111,
+                        124
+                    ],
+                    "name": "Natural Gas Europe",
+                    "screen_name": "NatGasEurope"
+                }
+            ]
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018555920150528,
+        "id_str": "462018555920150528",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "possibly_sensitive": false,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+        "text": "Ukraine needs to get back in touch with Russia to avoid additional support from IMF\nhttp://t.co/ov2Hgj1gxA via @NatGasEurope",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Mon Nov 25 00:56:58 +0000 2013",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Managing Director ; HRB HANSEATIC SOLUTIONS GmbH ; Nurturing Symbiotic, Synergetic & Sustainable Mutuality of Energy, Environment & Development.",
+            "favourites_count": 7248,
+            "follow_request_sent": null,
+            "followers_count": 835,
+            "following": null,
+            "friends_count": 4918,
+            "geo_enabled": false,
+            "id": 2213293596,
+            "id_str": "2213293596",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 21,
+            "location": "Hamburg, Germany",
+            "name": "SAMIR HASHEM",
+            "notifications": null,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2213293596/1509027718",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/923555854804275200/uCTgq3YN_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/923555854804275200/uCTgq3YN_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "SAMIR8HASHEM",
+            "statuses_count": 2152,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://www.hanseaticsolutions.de",
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:36 +0000 2014",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        71,
+                        79
+                    ],
+                    "text": "Donetsk"
+                },
+                {
+                    "indices": [
+                        81,
+                        89
+                    ],
+                    "text": "Ukraine"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "ow.ly/wohhd",
+                    "expanded_url": "http://ow.ly/wohhd",
+                    "indices": [
+                        98,
+                        120
+                    ],
+                    "url": "http://t.co/D97eEmqsPO"
+                }
+            ],
+            "user_mentions": [
+                {
+                    "id": 115754870,
+                    "id_str": "115754870",
+                    "indices": [
+                        3,
+                        14
+                    ],
+                    "name": "RT America",
+                    "screen_name": "RT_America"
+                }
+            ]
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018533413888000,
+        "id_str": "462018533413888000",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "possibly_sensitive": false,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "retweeted_status": {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Thu May 01 23:57:45 +0000 2014",
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            55,
+                            63
+                        ],
+                        "text": "Donetsk"
+                    },
+                    {
+                        "indices": [
+                            65,
+                            73
+                        ],
+                        "text": "Ukraine"
+                    }
+                ],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "ow.ly/wohhd",
+                        "expanded_url": "http://ow.ly/wohhd",
+                        "indices": [
+                            82,
+                            104
+                        ],
+                        "url": "http://t.co/D97eEmqsPO"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 2,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 462018064859820032,
+            "id_str": "462018064859820032",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "en",
+            "place": null,
+            "possibly_sensitive": false,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 13,
+            "retweeted": false,
+            "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+            "text": "Activists clash with police, seize another building in #Donetsk, #Ukraine [VIDEO] http://t.co/D97eEmqsPO @PaulaSlier_RT",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri Feb 19 20:40:15 +0000 2010",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "It\u2019s time to do REAL news again and make the world #QuestionMore \ud83d\udc49FOLLOW US on Telegram:http://t.me/RTAmerica \ud83d\ude4c",
+                "favourites_count": 678,
+                "follow_request_sent": null,
+                "followers_count": 357377,
+                "following": null,
+                "friends_count": 753,
+                "geo_enabled": true,
+                "id": 115754870,
+                "id_str": "115754870",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 4604,
+                "location": "Washington, DC",
+                "name": "RT America",
+                "notifications": null,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/115754870/1420600511",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/969300259997446144/d_NzrMkI_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/969300259997446144/d_NzrMkI_normal.jpg",
+                "profile_link_color": "3D990F",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "EBEBEB",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "RT_America",
+                "statuses_count": 127291,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://rt.com/usa",
+                "utc_offset": null,
+                "verified": true,
+                "withheld_in_countries": []
+            }
+        },
+        "source": "<a href=\"https://chrome.google.com/webstore/detail/cdoinklelehcpndgmcddkkdhibpoglnk\" rel=\"nofollow\">Bird Nest</a>",
+        "text": "RT @RT_America: Activists clash with police, seize another building in #Donetsk, #Ukraine [VIDEO] http://t.co/D97eEmqsPO @PaulaSlier_RT",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Feb 28 03:12:45 +0000 2013",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Noticias del mundo-News of the world.",
+            "favourites_count": 713,
+            "follow_request_sent": null,
+            "followers_count": 88,
+            "following": null,
+            "friends_count": 41,
+            "geo_enabled": true,
+            "id": 1226556204,
+            "id_str": "1226556204",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 13,
+            "location": "Minas-URUGUAY",
+            "name": "pablogilbert",
+            "notifications": null,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1226556204/1427906404",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/570383785317781504/BVyIzTEJ_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/570383785317781504/BVyIzTEJ_normal.jpeg",
+            "profile_link_color": "89C9FA",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "pablogilbert3",
+            "statuses_count": 63575,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:35 +0000 2014",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        15,
+                        23
+                    ],
+                    "text": "Ukraine"
+                },
+                {
+                    "indices": [
+                        98,
+                        105
+                    ],
+                    "text": "MayDay"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "mfa.gov.ua/ua/press-cente\u2026",
+                    "expanded_url": "http://mfa.gov.ua/ua/press-center/comments/1159-zajava-mzs-ukrajini-shhodo-neonacistsykih-vistupiv-v-rf",
+                    "indices": [
+                        117,
+                        139
+                    ],
+                    "url": "http://t.co/ZkUi3MOjCs"
+                }
+            ],
+            "user_mentions": [
+                {
+                    "id": 43142962,
+                    "id_str": "43142962",
+                    "indices": [
+                        3,
+                        13
+                    ],
+                    "name": "Natalia Melnychuk",
+                    "screen_name": "pravolivo"
+                }
+            ]
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018528582053888,
+        "id_str": "462018528582053888",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "possibly_sensitive": false,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "retweeted_status": {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Thu May 01 23:54:07 +0000 2014",
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            0,
+                            8
+                        ],
+                        "text": "Ukraine"
+                    },
+                    {
+                        "indices": [
+                            83,
+                            90
+                        ],
+                        "text": "MayDay"
+                    },
+                    {
+                        "indices": [
+                            125,
+                            140
+                        ],
+                        "text": "RussianFascism"
+                    }
+                ],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "mfa.gov.ua/ua/press-cente\u2026",
+                        "expanded_url": "http://mfa.gov.ua/ua/press-center/comments/1159-zajava-mzs-ukrajini-shhodo-neonacistsykih-vistupiv-v-rf",
+                        "indices": [
+                            102,
+                            124
+                        ],
+                        "url": "http://t.co/ZkUi3MOjCs"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 4,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 462017151810166784,
+            "id_str": "462017151810166784",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "en",
+            "place": null,
+            "possibly_sensitive": false,
+            "quote_count": 0,
+            "reply_count": 2,
+            "retweet_count": 8,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "text": "#Ukraine's MFA denounced neo-nazi demos, racist,antisemitic,chauvinistic mottos on #MayDay in Russia. http://t.co/ZkUi3MOjCs #RussianFascism",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu May 28 16:31:26 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Ukrainian journalist&foreign agent, twitting news from/about #Ukraine in English. pravolivo@gmail.com",
+                "favourites_count": 3505,
+                "follow_request_sent": null,
+                "followers_count": 3535,
+                "following": null,
+                "friends_count": 722,
+                "geo_enabled": false,
+                "id": 43142962,
+                "id_str": "43142962",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 282,
+                "location": "currently not in Ukraine",
+                "name": "Natalia Melnychuk",
+                "notifications": null,
+                "profile_background_color": "C6E2EE",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme2/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme2/bg.gif",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/43142962/1396725858",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/484079216930353152/vgtRmLAr_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/484079216930353152/vgtRmLAr_normal.jpeg",
+                "profile_link_color": "1F98C7",
+                "profile_sidebar_border_color": "C6E2EE",
+                "profile_sidebar_fill_color": "DAECF4",
+                "profile_text_color": "663B12",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "pravolivo",
+                "statuses_count": 7662,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "RT @pravolivo: #Ukraine's MFA denounced neo-nazi demos, racist,antisemitic,chauvinistic mottos on #MayDay in Russia. http://t.co/ZkUi3MOjCs\u2026",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Apr 17 14:11:05 +0000 2013",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Independent journalist. @CEPA non-resident fellow. Disinformation researcher. Ex @Hromadske. In a special relationship with Italy",
+            "favourites_count": 67866,
+            "follow_request_sent": null,
+            "followers_count": 325819,
+            "following": null,
+            "friends_count": 2040,
+            "geo_enabled": true,
+            "id": 1359532099,
+            "id_str": "1359532099",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 5640,
+            "location": "Ukraine",
+            "name": "Olga Tokariuk",
+            "notifications": null,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1359532099/1393415410",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1223178254258929664/-KerWtYY_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223178254258929664/-KerWtYY_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "olgatokariuk",
+            "statuses_count": 16381,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://www.buymeacoffee.com/olgatokarip",
+            "utc_offset": null,
+            "verified": true,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:35 +0000 2014",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "ift.tt/1rUlThf",
+                    "expanded_url": "http://ift.tt/1rUlThf",
+                    "indices": [
+                        65,
+                        87
+                    ],
+                    "url": "http://t.co/DwSpv2A1mK"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018527084683266,
+        "id_str": "462018527084683266",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "possibly_sensitive": false,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+        "text": "Check out this article! Ukraine government loses control of east http://t.co/DwSpv2A1mK. Article posted at... May 01, 2014 at 06:34PM",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Nov 07 23:16:35 +0000 2012",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Obama #elections",
+            "favourites_count": 0,
+            "follow_request_sent": null,
+            "followers_count": 43,
+            "following": null,
+            "friends_count": 33,
+            "geo_enabled": false,
+            "id": 933162084,
+            "id_str": "933162084",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 8,
+            "location": null,
+            "name": "Obama Second Term",
+            "notifications": null,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2820504063/543161e43645c1cc64fcf688f55e1762_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2820504063/543161e43645c1cc64fcf688f55e1762_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "Obamaterm",
+            "statuses_count": 42922,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    },
+    {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 01 23:59:34 +0000 2014",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "ift.tt/1rUlUSq",
+                    "expanded_url": "http://ift.tt/1rUlUSq",
+                    "indices": [
+                        60,
+                        82
+                    ],
+                    "url": "http://t.co/nm2yTBkYTd"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "filter_level": "low",
+        "geo": null,
+        "id": 462018525197242371,
+        "id_str": "462018525197242371",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "matching_rules": [
+            {
+                "tag": null
+            }
+        ],
+        "place": null,
+        "possibly_sensitive": false,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "retweeted": false,
+        "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+        "text": "Check out this article! Bush on Putin: 'I think he changed' http://t.co/nm2yTBkYTd. Article posted at... May 01, 2014 at 06:35PM",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Nov 07 23:16:35 +0000 2012",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Obama #elections",
+            "favourites_count": 0,
+            "follow_request_sent": null,
+            "followers_count": 43,
+            "following": null,
+            "friends_count": 33,
+            "geo_enabled": false,
+            "id": 933162084,
+            "id_str": "933162084",
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 8,
+            "location": null,
+            "name": "Obama Second Term",
+            "notifications": null,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2820504063/543161e43645c1cc64fcf688f55e1762_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2820504063/543161e43645c1cc64fcf688f55e1762_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "Obamaterm",
+            "statuses_count": 42922,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false,
+            "withheld_in_countries": []
+        }
+    }
+]

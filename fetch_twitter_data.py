@@ -63,8 +63,6 @@ def fetch_twitter_data(query, start_time, end_time):
             print('Max_tweets exceeded, exiting')
             break
 
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--from_time')
@@ -81,8 +79,9 @@ if __name__ == "__main__":
     start_time = '2010-03-16T00:00:00Z'
     end_time = '2010-03-23T00:00:00Z'
     '''
-    start_time = args.from_date
-    end_time = args.endtime
+
+    start_time = args.from_time
+    end_time = args.to_time
     query = 'ukraine russia lang:en'
 
     try:  # check if date is on correct format
@@ -91,10 +90,7 @@ if __name__ == "__main__":
     except:
         raise Exception('Wrong date format, should be: YYYY-mm-ddTHH:MM:SSZ')
 
-    
-    
-    print('from and to time')
-    print(start_time, '\n', end_time)
 
-    # fetch_twitter_data(query=query, start_time=start_time, end_time=end_time)
+    fetch_twitter_data(query=query, start_time=start_time, end_time=end_time)
+    print('Finished!')
     

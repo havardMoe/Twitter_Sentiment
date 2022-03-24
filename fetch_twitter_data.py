@@ -1,7 +1,6 @@
 # With inspiration from https://github.com/jdfoote/Intro-to-Programming-and-Data-Science/blob/fall2021/extra_topics/twitter_v2_example.ipynb
 import os
 import tweepy
-import pandas as pd
 import json
 import time
 import csv

@@ -42,7 +42,7 @@ def fetch_twitter_data(query, start_time, end_time):
         max_date = max([tweet.created_at for tweet in response.data])
         days_fetched = (end_dt - max_date).days
         if days_fetched % 1 == 0:
-            print(f'Fetched {days_fetched}/{total_days}, ({round(100*days_fetched/total_days, 0)}%)')
+            print(f'Fetched {days_fetched}/{total_days} | {round(100*days_fetched/total_days, 0)}% of days)| {round(100*total_fetched_tweets/MAX_TWEETS, 0)}% of MAX_TWEETS')
 
         if tweets_in_file > MAX_TWEETS_PER_FILE or tweets_in_file == 0:
             tweets_in_file = 0

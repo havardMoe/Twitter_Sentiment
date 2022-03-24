@@ -82,7 +82,7 @@ if __name__ == "__main__":
 
     start_time = args.from_time
     end_time = args.to_time
-    query = 'ukraine russia lang:en'
+    query = 'ukraine russia lang:en -is:retweet'
 
     try:  # check if date is on correct format
         start_dt = datetime.strptime(start_time,'%Y-%m-%dT%H:%M:%SZ')

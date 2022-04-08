@@ -7,7 +7,7 @@ import csv
 import argparse
 from datetime import datetime, timezone
 
-MAX_TWEETS = 1_000_000
+MAX_TWEETS = 3_000_000
 MAX_TWEETS_PER_FILE = 100_000
 
 def write_csv(data, filename, new=False):

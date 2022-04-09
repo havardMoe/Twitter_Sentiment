@@ -1,1 +1,0 @@
-DROP TABLE twitter_data.raw_data

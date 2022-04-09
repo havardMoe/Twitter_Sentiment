@@ -18,7 +18,6 @@ def write_csv(data, filename, new=False):
         else:
             writer.writerows(data)
 
-
 def fetch_twitter_data(query, start_time, end_time):
     tweets_in_file = 0
     total_fetched_tweets = 0
@@ -50,7 +49,6 @@ def fetch_twitter_data(query, start_time, end_time):
             filename = f'{max_date.strftime("%Y%m%d%H%M%S")}'
 
             write_csv(fields, filename, new=True)  # write headers to file
-        
 
         tweet_list = [[tweet.id, tweet.text.replace('\n',' '), tweet.author_id, tweet.created_at, tweet.geo] for tweet in response.data]
         write_csv(tweet_list, filename)

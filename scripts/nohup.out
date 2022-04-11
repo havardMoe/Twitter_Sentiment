@@ -1,0 +1,215 @@
+22/04/10 20:09:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+22/04/10 20:09:50 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+22/04/10 20:09:50 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+22/04/10 20:09:54 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+[Stage 0:>                                                          (0 + 4) / 6][Stage 0:>                  (0 + 4) / 6][Stage 1:>                (0 + 0) / 540][Stage 0:>                  (0 + 6) / 6][Stage 1:>                (0 + 2) / 540][Stage 0:>                  (0 + 6) / 6][Stage 1:>                (0 + 6) / 540][Stage 0:============>      (4 + 2) / 6][Stage 1:>               (0 + 10) / 540][Stage 0:===============>   (5 + 1) / 6][Stage 1:>               (0 + 11) / 540][Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540]22/04/10 20:18:21 WARN TaskSetManager: Lost task 9.0 in stage 1.0 (TID 15) (10.10.28.122 executor 1): java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.apache.spark.storage.TimeTrackingOutputStream.write(TimeTrackingOutputStream.java:59)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at net.jpountz.lz4.LZ4BlockOutputStream.flushBufferedData(LZ4BlockOutputStream.java:223)
+	at net.jpountz.lz4.LZ4BlockOutputStream.write(LZ4BlockOutputStream.java:176)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at org.apache.spark.sql.catalyst.expressions.UnsafeRow.writeToStream(UnsafeRow.java:539)
+	at org.apache.spark.sql.execution.UnsafeRowSerializerInstance$$anon$1.writeValue(UnsafeRowSerializer.scala:69)
+	at org.apache.spark.storage.DiskBlockObjectWriter.write(DiskBlockObjectWriter.scala:258)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:158)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:498)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:501)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540]22/04/10 20:20:14 WARN TaskSetManager: Lost task 4.0 in stage 1.0 (TID 10) (10.10.28.190 executor 2): java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.apache.spark.storage.TimeTrackingOutputStream.write(TimeTrackingOutputStream.java:59)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at net.jpountz.lz4.LZ4BlockOutputStream.flushBufferedData(LZ4BlockOutputStream.java:223)
+	at net.jpountz.lz4.LZ4BlockOutputStream.write(LZ4BlockOutputStream.java:176)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at org.apache.spark.sql.catalyst.expressions.UnsafeRow.writeToStream(UnsafeRow.java:539)
+	at org.apache.spark.sql.execution.UnsafeRowSerializerInstance$$anon$1.writeValue(UnsafeRowSerializer.scala:69)
+	at org.apache.spark.storage.DiskBlockObjectWriter.write(DiskBlockObjectWriter.scala:258)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:158)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:498)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:501)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[Stage 1:>                                                       (0 + 12) / 540][Stage 1:>                                                       (0 + 12) / 540]22/04/10 20:22:17 ERROR StandaloneSchedulerBackend: Application has been killed. Reason: Master removed our application: KILLED
+22/04/10 20:22:17 ERROR FileFormatWriter: Aborting job 250292e3-69bb-4987-9e0e-a1d3ed39fc24.
+org.apache.spark.SparkException: Job aborted due to stage failure: Master removed our application: KILLED
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2252)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2251)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2251)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1124)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1124)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1124)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2490)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2432)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2421)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:902)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2196)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:200)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:188)
+	at org.apache.spark.sql.execution.datasources.DataSource.writeAndRead(DataSource.scala:550)
+	at org.apache.spark.sql.execution.command.CreateDataSourceTableAsSelectCommand.saveDataIntoTable(createDataSourceTables.scala:220)
+	at org.apache.spark.sql.execution.command.CreateDataSourceTableAsSelectCommand.run(createDataSourceTables.scala:177)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:108)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:106)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.doExecute(commands.scala:131)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$execute$1(SparkPlan.scala:180)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$executeQuery$1(SparkPlan.scala:218)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.sql.execution.SparkPlan.executeQuery(SparkPlan.scala:215)
+	at org.apache.spark.sql.execution.SparkPlan.execute(SparkPlan.scala:176)
+	at org.apache.spark.sql.execution.QueryExecution.toRdd$lzycompute(QueryExecution.scala:132)
+	at org.apache.spark.sql.execution.QueryExecution.toRdd(QueryExecution.scala:131)
+	at org.apache.spark.sql.DataFrameWriter.$anonfun$runCommand$1(DataFrameWriter.scala:989)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:989)
+	at org.apache.spark.sql.DataFrameWriter.createTable(DataFrameWriter.scala:753)
+	at org.apache.spark.sql.DataFrameWriter.saveAsTable(DataFrameWriter.scala:731)
+	at org.apache.spark.sql.DataFrameWriter.saveAsTable(DataFrameWriter.scala:626)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+22/04/10 20:22:17 ERROR Utils: Uncaught exception in thread stop-spark-context
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:301)
+	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+	at org.apache.spark.deploy.client.StandaloneAppClient.stop(StandaloneAppClient.scala:287)
+	at org.apache.spark.scheduler.cluster.StandaloneSchedulerBackend.org$apache$spark$scheduler$cluster$StandaloneSchedulerBackend$$stop(StandaloneSchedulerBackend.scala:259)
+	at org.apache.spark.scheduler.cluster.StandaloneSchedulerBackend.stop(StandaloneSchedulerBackend.scala:131)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.stop(TaskSchedulerImpl.scala:881)
+	at org.apache.spark.scheduler.DAGScheduler.stop(DAGScheduler.scala:2415)
+	at org.apache.spark.SparkContext.$anonfun$stop$12(SparkContext.scala:2069)
+	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1419)
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2069)
+	at org.apache.spark.SparkContext$$anon$3.run(SparkContext.scala:2018)
+Caused by: org.apache.spark.SparkException: Could not find AppClient.
+	at org.apache.spark.rpc.netty.Dispatcher.postMessage(Dispatcher.scala:176)
+	at org.apache.spark.rpc.netty.Dispatcher.postLocalMessage(Dispatcher.scala:144)
+	at org.apache.spark.rpc.netty.NettyRpcEnv.askAbortable(NettyRpcEnv.scala:242)
+	at org.apache.spark.rpc.netty.NettyRpcEndpointRef.askAbortable(NettyRpcEnv.scala:555)
+	at org.apache.spark.rpc.netty.NettyRpcEndpointRef.ask(NettyRpcEnv.scala:559)
+	at org.apache.spark.rpc.RpcEndpointRef.ask(RpcEndpointRef.scala:74)
+	... 9 more
+Traceback (most recent call last):
+  File "combine_results.py", line 39, in <module>
+    joined_results.write.mode("overwrite").saveAsTable("results")
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/pyspark/sql/readwriter.py", line 1158, in saveAsTable
+    self._jwrite.saveAsTable(name)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/py4j/java_gateway.py", line 1304, in __call__
+    return_value = get_return_value(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/pyspark/sql/utils.py", line 111, in deco
+    return f(*a, **kw)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/py4j/protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o36.saveAsTable.
+: org.apache.spark.SparkException: Job aborted.
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:231)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:188)
+	at org.apache.spark.sql.execution.datasources.DataSource.writeAndRead(DataSource.scala:550)
+	at org.apache.spark.sql.execution.command.CreateDataSourceTableAsSelectCommand.saveDataIntoTable(createDataSourceTables.scala:220)
+	at org.apache.spark.sql.execution.command.CreateDataSourceTableAsSelectCommand.run(createDataSourceTables.scala:177)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:108)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:106)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.doExecute(commands.scala:131)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$execute$1(SparkPlan.scala:180)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$executeQuery$1(SparkPlan.scala:218)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.sql.execution.SparkPlan.executeQuery(SparkPlan.scala:215)
+	at org.apache.spark.sql.execution.SparkPlan.execute(SparkPlan.scala:176)
+	at org.apache.spark.sql.execution.QueryExecution.toRdd$lzycompute(QueryExecution.scala:132)
+	at org.apache.spark.sql.execution.QueryExecution.toRdd(QueryExecution.scala:131)
+	at org.apache.spark.sql.DataFrameWriter.$anonfun$runCommand$1(DataFrameWriter.scala:989)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$5(SQLExecution.scala:103)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:163)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:90)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:775)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:64)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:989)
+	at org.apache.spark.sql.DataFrameWriter.createTable(DataFrameWriter.scala:753)
+	at org.apache.spark.sql.DataFrameWriter.saveAsTable(DataFrameWriter.scala:731)
+	at org.apache.spark.sql.DataFrameWriter.saveAsTable(DataFrameWriter.scala:626)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Master removed our application: KILLED
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2252)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2251)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2251)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1124)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1124)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1124)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2490)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2432)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2421)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:902)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2196)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:200)
+	... 35 more
+
+22/04/10 20:47:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+22/04/10 20:47:58 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+22/04/10 20:47:58 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+22/04/10 20:48:02 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+[Stage 0:>                                                        (0 + 12) / 15][Stage 0:>  (0 + 12) / 15][Stage 1:>   (0 + 0) / 14][Stage 2:>   (0 + 0) / 14][Stage 0:>  (1 + 12) / 15][Stage 1:>   (0 + 0) / 14][Stage 2:>   (0 + 0) / 14][Stage 0:>  (2 + 12) / 15][Stage 1:>   (0 + 0) / 14][Stage 2:>   (0 + 0) / 14][Stage 0:=> (5 + 10) / 15][Stage 1:>   (0 + 2) / 14][Stage 2:>   (0 + 0) / 14][Stage 0:=>  (7 + 8) / 15][Stage 1:>   (0 + 5) / 14][Stage 2:>   (0 + 0) / 14][Stage 0:==> (9 + 6) / 15][Stage 1:>   (0 + 6) / 14][Stage 2:>   (0 + 0) / 14][Stage 0:==>(12 + 3) / 15][Stage 1:>   (0 + 9) / 14][Stage 2:>   (0 + 0) / 14][Stage 0:==>(13 + 2) / 15][Stage 1:>  (0 + 10) / 14][Stage 2:>   (0 + 0) / 14][Stage 0:==>(14 + 1) / 15][Stage 1:>  (0 + 11) / 14][Stage 2:>   (0 + 0) / 14][Stage 1:>  (0 + 12) / 14][Stage 2:>   (0 + 0) / 14][Stage 3:>   (0 + 0) / 14][Stage 1:>  (1 + 12) / 14][Stage 2:>   (0 + 0) / 14][Stage 3:>   (0 + 0) / 14][Stage 1:=>  (6 + 8) / 14][Stage 2:>   (0 + 4) / 14][Stage 3:>   (0 + 0) / 14][Stage 1:==> (8 + 6) / 14][Stage 2:>   (0 + 6) / 14][Stage 3:>   (0 + 0) / 14][Stage 1:==>(13 + 1) / 14][Stage 2:>  (0 + 11) / 14][Stage 3:>   (0 + 0) / 14][Stage 1:==>(13 + 1) / 14][Stage 2:>  (4 + 10) / 14][Stage 3:>   (0 + 1) / 14][Stage 2:=======>          (6 + 8) / 14][Stage 3:>                 (0 + 4) / 14][Stage 2:=============>   (11 + 3) / 14][Stage 3:>                 (0 + 9) / 14][Stage 2:===============> (13 + 1) / 14][Stage 3:=>               (1 + 11) / 14][Stage 2:===============> (13 + 1) / 14][Stage 3:=======>          (6 + 8) / 14][Stage 2:===============> (13 + 1) / 14][Stage 3:===========>      (9 + 5) / 14][Stage 3:============================================>            (11 + 3) / 14][Stage 3:====================================================>    (13 + 1) / 14][Stage 4:>                                                       (0 + 12) / 200][Stage 4:=>                                                      (4 + 12) / 200][Stage 4:===>                                                   (12 + 12) / 200][Stage 4:====>                                                  (16 + 12) / 200][Stage 4:====>                                                  (18 + 12) / 200][Stage 4:======>                                                (24 + 12) / 200][Stage 4:======>                                                (25 + 12) / 200][Stage 4:=========>                                             (36 + 12) / 200][Stage 4:==========>                                            (39 + 12) / 200][Stage 4:============>                                          (45 + 12) / 200][Stage 4:=============>                                         (49 + 12) / 200][Stage 4:==============>                                        (53 + 12) / 200][Stage 4:===============>                                       (58 + 12) / 200][Stage 4:================>                                      (60 + 12) / 200][Stage 4:=================>                                     (65 + 12) / 200][Stage 4:===================>                                   (70 + 12) / 200][Stage 4:====================>                                  (74 + 12) / 200][Stage 4:=====================>                                 (79 + 12) / 200][Stage 4:======================>                                (83 + 12) / 200][Stage 4:========================>                              (88 + 12) / 200][Stage 4:=========================>                             (93 + 12) / 200][Stage 4:===========================>                          (100 + 12) / 200][Stage 4:===========================>                          (101 + 12) / 200][Stage 4:============================>                         (107 + 12) / 200][Stage 4:==============================>                       (113 + 12) / 200][Stage 4:===============================>                      (117 + 12) / 200][Stage 4:================================>                     (121 + 12) / 200][Stage 4:=================================>                    (125 + 12) / 200][Stage 4:===================================>                  (133 + 12) / 200][Stage 4:====================================>                 (136 + 12) / 200][Stage 4:====================================>                 (137 + 12) / 200][Stage 4:======================================>               (142 + 12) / 200][Stage 4:=======================================>              (147 + 12) / 200][Stage 4:=========================================>            (153 + 12) / 200][Stage 4:==========================================>           (158 + 12) / 200][Stage 4:============================================>         (163 + 12) / 200][Stage 4:============================================>         (165 + 12) / 200][Stage 4:=============================================>        (170 + 12) / 200][Stage 4:===============================================>      (175 + 12) / 200][Stage 4:================================================>     (181 + 12) / 200][Stage 4:==================================================>   (187 + 11) / 200][Stage 4:===================================================>  (190 + 10) / 200][Stage 4:======================================================>(197 + 3) / 200]                                                                                22/04/10 20:48:39 WARN SessionState: METASTORE_FILTER_HOOK will be ignored, since hive.security.authorization.manager is set to instance of HiveAuthorizerFactory.
+22/04/10 20:48:40 WARN HiveConf: HiveConf of name hive.internal.ss.authz.settings.applied.marker does not exist
+22/04/10 20:48:40 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+22/04/10 20:48:40 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist

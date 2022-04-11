@@ -14,10 +14,8 @@ spark = SparkSession \
 
 # Change to 'OFF' if it produces too much output
 spark.sparkContext.setLogLevel('WARN')  
-
 # files used for preprocessing
 spark.sparkContext.addPyFile("/home/ubuntu/twitter_sentiment/code/preprocessing/preproc_functions.py")
-
 # name of database
 spark.sql('use twitter_data')
 
@@ -31,29 +29,33 @@ query = '''
 '''
 raw_data = spark.sql(query)
 
-
 # regexes and udfs
     # 1. translates emojies
     # 2. removes user mentions
     # 3. removes urls
     # 4. removes all non-numerical characters
-    # 5. all text to lowercase
+    # 5. change multiple spaces to a single space (may be doubled due to the emoji translator)
+    # 6. remove space in start of a text (may happen due to the emoji translator)
+    # 7. all text to lowercase
+
 udf_translate_emojies = udf(lambda text: emoji_to_words(text))
 user_regex = r'(@\w{1,15})'
 url_regex = r'(https?:\/\/)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)'
 neg_alphanumeric_regex = r'([^ a-zA-Z])'
+double_spaces_regex = r'(  +)'
+start_spaces_regex = r'(^ )'
 
-# perform the preprocessing
 data = raw_data.\
     withColumn('text', udf_translate_emojies(col('text'))). \
     withColumn('text', F.regexp_replace(col('text'), url_regex, '')). \
     withColumn('text', F.regexp_replace(col('text'), user_regex, '')). \
     withColumn('text', F.regexp_replace(col('text'), neg_alphanumeric_regex, '')). \
+    withColumn('text', F.regexp_replace(col('text'), double_spaces_regex, ' ')). \
+    withColumn('text', F.regexp_replace(col('text'), start_spaces_regex, '')). \
     withColumn('text', F.lower(col('text'))
 )
 
 spark.sql('drop table if exists processed_data')
-
 # write to hive table - twitter_data.proccesed_data
 data.write.format('hive').mode("overwrite").saveAsTable("processed_data")
 

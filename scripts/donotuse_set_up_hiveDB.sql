@@ -37,7 +37,6 @@ CREATE TABLE IF NOT EXISTS processed_data (
 );
 
 -- Sentiment Analysis Result table
--- TODO: add order by created_at (?)
 DROP TABLE IF EXISTS sentiment_results;
 CREATE TABLE IF NOT EXISTS sentiment_results (
     id BIGINT,

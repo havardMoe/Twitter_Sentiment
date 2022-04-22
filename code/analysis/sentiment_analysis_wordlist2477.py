@@ -29,5 +29,4 @@ udf_wl_sentiment = udf(lambda text: wl.analyze(text), IntegerType())
 df = df.withColumn('sentiment', udf_wl_sentiment('text'))
 
 
-
 df.write.mode("overwrite").saveAsTable("wordlist2477_results")

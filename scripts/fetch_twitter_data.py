@@ -7,11 +7,11 @@ import csv
 import argparse
 from datetime import datetime, timezone
 
-MAX_TWEETS = 3_000_000
+MAX_TWEETS = 10_000_000
 MAX_TWEETS_PER_FILE = 100_000
 
 def write_csv(data, filename, new=False):
-    with open(os.path.join('data', f'{filename}.csv'), 'a', encoding='utf-8') as file:
+    with open(os.path.join('..', 'data', f'{filename}.csv'), 'a', encoding='utf-8') as file:
         writer = csv.writer(file)
         if new:  # new file, writing header
             writer.writerow(data)
@@ -67,7 +67,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     # Find connect to tweepy client with bearer token
-    with open(os.path.join('..', 'keys', 'keys.json')) as f:
+    key_path = r'/home/ubuntu/keys/keys.json'
+    with open(key_path) as f:
         twitter_keys = json.load(f)
     client = tweepy.Client(bearer_token=twitter_keys['bearer_token'], wait_on_rate_limit=True)
 

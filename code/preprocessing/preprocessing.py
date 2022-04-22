@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, udf
-from pyspark.sql.types import StringType
+from pyspark.sql.types import StringType, TimestampType, IntegerType
 import pyspark.sql.functions as F
 from preproc_functions import emoji_to_words, preprocess_all, remove_special_characters, remove_urls, remove_mentions
 
@@ -26,6 +26,8 @@ query = '''
     WHERE text IS NOT NULL
     AND created_at IS NOT NULL
     AND id IS NOT NULL
+    AND created_at <= date"2011-12-31"
+    AND created_at > date"2022-04-01"
 '''
 raw_data = spark.sql(query)
 
@@ -55,8 +57,8 @@ data = raw_data.\
     withColumn('text', F.lower(col('text'))
 )
 
-spark.sql('drop table if exists processed_data')
 # write to hive table - twitter_data.proccesed_data
+spark.sql('drop table if exists processed_data')
 data.write.format('hive').mode("overwrite").saveAsTable("processed_data")
 
 spark.sql('select count(*) from processed_data').show()

@@ -4,6 +4,10 @@ from pyspark.sql.types import StringType, TimestampType, IntegerType
 import pyspark.sql.functions as F
 from preproc_functions import emoji_to_words, preprocess_all, remove_special_characters, remove_urls, remove_mentions
 
+# Warning:
+# If you have fetched tweets later than 01042022, change last line of 'query'
+# Warning
+
 spark = SparkSession \
         .builder \
         .master('spark://10.10.28.172:7077') \
@@ -26,9 +30,10 @@ query = '''
     WHERE text IS NOT NULL
     AND created_at IS NOT NULL
     AND id IS NOT NULL
-    AND created_at <= date"2011-12-31"
-    AND created_at > date"2022-04-01"
+    AND created_at >= date"2012-01-01"
+    AND created_at <= date"2022-04-01"
 '''
+
 raw_data = spark.sql(query)
 
 # regexes and udfs

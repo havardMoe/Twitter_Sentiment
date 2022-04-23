@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 
 MAX_TWEETS = 10_000_000
 MAX_TWEETS_PER_FILE = 100_000
+MAX_TWEETS_PER_PAGE = 500
 
 def write_csv(data, filename, new=False):
     with open(os.path.join('..', 'data', f'{filename}.csv'), 'a', encoding='utf-8') as file:
@@ -21,7 +22,6 @@ def write_csv(data, filename, new=False):
 def fetch_twitter_data(query, start_time, end_time):
     tweets_in_file = 0
     total_fetched_tweets = 0
-    max_tweets_per_page = 500
 
     start_dt = datetime.strptime(start_time,'%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc)
     end_dt = datetime.strptime(end_time,'%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc)
@@ -36,7 +36,7 @@ def fetch_twitter_data(query, start_time, end_time):
                 tweet_fields = fields,
                 start_time = start_time,
                 end_time = end_time,
-                max_results=max_tweets_per_page               
+                max_results=MAX_TWEETS_PER_PAGE               
     ):
         max_date = max([tweet.created_at for tweet in response.data])
         days_fetched = (end_dt - max_date).days

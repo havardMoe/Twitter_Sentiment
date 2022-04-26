@@ -19,7 +19,7 @@ def write_csv(data, filename, new=False):
         else:
             writer.writerows(data)
 
-def fetch_twitter_data(query, start_time, end_time):
+def fetch_twitter_data(client, query, start_time, end_time):
     tweets_in_file = 0
     total_fetched_tweets = 0
 
@@ -89,6 +89,6 @@ if __name__ == "__main__":
         raise Exception('Wrong date format, should be: YYYY-mm-ddTHH:MM:SSZ')
 
 
-    fetch_twitter_data(query=query, start_time=start_time, end_time=end_time)
+    fetch_twitter_data(client, query=query, start_time=start_time, end_time=end_time)
     print('Finished!')
     

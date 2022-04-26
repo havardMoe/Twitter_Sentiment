@@ -24,6 +24,7 @@ withColumn('id', col('id').cast(LongType())).\
 withColumn('author_id', col('author_id').cast(LongType())).\
 withColumn('created_at', col('created_at').cast(TimestampType()))
 
+
 # write to hive table - twitter_data.raw_data
 spark.sql('drop table if exists raw_data')
 data.write.format('hive').mode("overwrite").saveAsTable("raw_data")

@@ -22,8 +22,8 @@ df = spark.sql(query)
 
 analyzer = SentimentIntensityAnalyzer()
 sentiment_vader = lambda text: analyzer.polarity_scores(text)['compound']
-
 udf_vader_sentiment = udf(lambda text: sentiment_vader(text), FloatType())
+
 sentiment_score = df.withColumn('sentiment', udf_vader_sentiment('text'))
 
 sentiment_score.write.mode("overwrite").saveAsTable("vader_results")

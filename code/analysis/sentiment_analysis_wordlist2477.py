@@ -1,8 +1,6 @@
-from sre_parse import Tokenizer
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import udf
-from pyspark.sql.types import FloatType, IntegerType
-from pyspark.sql.functions import split
+from pyspark.sql.types import IntegerType
 from analysis import WordList
 
 

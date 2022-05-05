@@ -1,7 +1,7 @@
 
 <a name="toppp"></a>
 # Twitter_Sentiment
-Sentiment analysis of the Ukraine-Russia war.
+Sentiment analysis of the Ukraine-Russia war with Hadoop, Hive, and Spark
 #### Table of Contents:  
 - [Tech/Framework Used](#tech)  
 - [Short Description](#desc)  

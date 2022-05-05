@@ -65,7 +65,7 @@ Short guide to fetch twitter data, write data to raw table, perfrom preprocessin
 
 5. Perfrom sentiment analysis for TextBlob:  
     ```bash
-    park-submit /code/analysis/sentiment_analysis_textblob.py
+    spark-submit /code/analysis/sentiment_analysis_textblob.py
     ```
 
 6. Perfrom sentiment analysis for VaderSentiment:  

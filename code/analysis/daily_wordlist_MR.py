@@ -3,7 +3,6 @@ from pyspark.sql.functions import udf
 from analysis import WordList
 from operator import add
 
-
 spark = SparkSession \
         .builder \
         .master('spark://10.10.28.172:7077') \
@@ -24,6 +23,9 @@ wordlist = wl.dict
 df = spark.sql('select to_date(created_at) as date, split(text, " ") as word from processed_data')
 
 rdd = df.rdd
+# creates a table 'daily_sentiment_MR' containing
+# columns 'date' and 'total_sentiment'
+# where total_sentiment is the sum of sentiment scores for that day
 rdd.flatMapValues(lambda x: x) \
     .mapValues(lambda x: wordlist[x]) \
     .reduceByKey(add) \

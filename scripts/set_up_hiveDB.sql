@@ -1,3 +1,5 @@
+-- Old Hive setup directly with Hive 
+
 CREATE DATABASE IF NOT EXISTS twitter_data;
 USE twitter_data;
 

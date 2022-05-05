@@ -5,7 +5,7 @@ import pyspark.sql.functions as F
 from preproc_functions import emoji_to_words, preprocess_all, remove_special_characters, remove_urls, remove_mentions
 
 # Warning:
-# If you have fetched tweets later than 01042022, change last line of 'query'
+# If you have fetched tweets later than 01042022, change last line of 'query' (line 34)
 # Warning
 
 spark = SparkSession \

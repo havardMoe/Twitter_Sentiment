@@ -4,7 +4,6 @@ from pyspark.sql.types import IntegerType
 import pyspark.sql.functions as F
 from analysis import WordList
 
-
 spark = SparkSession \
         .builder \
         .master('spark://10.10.28.172:7077') \
@@ -20,15 +19,18 @@ spark.sql('use twitter_data')
 spark.sparkContext.setLogLevel('OFF')
 spark.sparkContext.addPyFile("/home/ubuntu/twitter_sentiment/code/analysis/analysis.py")
 
+# Use wordlist analysis
 wl = WordList('2477')
 wordlist = wl.dict
-
 
 df = spark.sql('select to_date(created_at) as date, text from processed_data')
 
 wl = WordList(which_wordlist='2477')
 udf_wl_analyze = udf(lambda text: wl.analyze(text), IntegerType())
 
+# creates a table 'daily_sentiment_DF' containing
+# columns 'date' and 'total_sentiment'
+# where total_sentiment is the sum of sentiment scores for that day
 df.withColumn('sentiment', udf_wl_analyze('text')). \
     groupBy(F.window('date', '1 day')). \
     sum(). \

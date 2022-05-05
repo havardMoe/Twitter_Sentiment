@@ -5,15 +5,18 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import time
 import random
 
+# old method for Textblob analysing
 def sentiment_tblob(text):
     return TextBlob(text).sentiment.polarity
 
-# todo: remove
+# old method for Vader analysing 
 def old_sentiment_vader(text):
     analyzer = SentimentIntensityAnalyzer()
     return analyzer.polarity_scores(text)['compound']
+# Note: we later implemented this directly in udfs
 
 
+# Class used for WordList sentiment analysis
 class WordList:
     def __init__(self, which_wordlist, delimiter=None):   
         wordlists = {
@@ -36,6 +39,7 @@ class WordList:
         score = sum(self.dict[word] for word in text.split(' '))
         return score
 
+# Function used for local testing
 def analyze_random_sentence(n, analyzer, n_print=0):
     names = ['ola', 'anna', 'jack', 'daniel', 'adam', 'eva']
     verbs = ['cycles', 'rides', 'watches', 'shoots', 'paints', 'slams', 'jams']
@@ -54,7 +58,6 @@ def analyze_random_sentence(n, analyzer, n_print=0):
 
 
 if __name__ == '__main__':
-    pass
     n = 10000
 
     wl = WordList('2477')

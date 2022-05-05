@@ -2,7 +2,8 @@ import emoji
 import re
 from textblob import TextBlob
 
-
+# translates emoji to explanatory text
+# e.g. <red heart emoji> to 'red heart'
 def emoji_to_words(text):
     changed = emoji.demojize(text, delimiters=(' ', ' '))
     return snake_case_to_words(changed)
@@ -16,6 +17,7 @@ def remove_urls(text):
     )
     return url_free_text
 
+# remove all non-alphabetical characters
 def remove_special_characters(text):
     return re.sub(r'[^ a-zA-Z]', '', text)
 
@@ -24,17 +26,21 @@ def _spaces(match):
     print(match)
     return f'{match.group(1)} {match.group(2)}'
 
+# snake_case to [snake, case]
 def snake_case_to_words(text):
     return re.sub(r'([a-zA-Z])_([a-zA-Z])', _spaces, text)
 
+# Spell correction on text
 def spell_correction(text):
     txt_blob = TextBlob(text)
     correct = txt_blob.lower().correct()
     return correct.raw
 
+# Removes the mentions in tweets
 def remove_mentions(text):
     return re.sub(r'@[/w]+', '', text)
 
+# Combined function for all preprocessing
 def preprocess_all(
     text, 
     translate_emoji=False, 

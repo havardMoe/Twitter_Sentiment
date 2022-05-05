@@ -12,7 +12,6 @@ spark = SparkSession \
 
 # Preventing errors of having too many settings in hive-site.xml
 spark.sparkContext.setLogLevel('OFF')
-# spark.sparkContext.addPyFile("/home/ubuntu/twitter_sentiment/code/analysis/analysis.py")
 # name of database
 spark.sql('use twitter_data')
 
@@ -20,10 +19,10 @@ query = 'SELECT id, text FROM processed_data'
 
 df = spark.sql(query)
 
+# creating udf for analysis with VaderSentiment    
 analyzer = SentimentIntensityAnalyzer()
 sentiment_vader = lambda text: analyzer.polarity_scores(text)['compound']
 udf_vader_sentiment = udf(lambda text: sentiment_vader(text), FloatType())
 
 sentiment_score = df.withColumn('sentiment', udf_vader_sentiment('text'))
-
 sentiment_score.write.mode("overwrite").saveAsTable("vader_results")

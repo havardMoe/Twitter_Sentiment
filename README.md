@@ -80,9 +80,11 @@ Short guide to fetch twitter data, write data to raw table, perfrom preprocessin
     
 8. Combine the different result tables for the analysers:  
     ```bash
-    /scripts/combine_results.py
+    spark-submit /scripts/combine_results.py
     ```
-    
+
+9. Visualize plots by running the [visualization_daily.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/visualizing/visualization_daily.ipynb) and [visualization_weekly.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/visualizing/visualization_weekly.ipynb) notebook files. (Images can be saved by pressing the save-symbol at the right).
+
 
 ## Retrieved Data
 The Data were retrieved from Twitter with the use of their API and are thus under their [terms of service](https://developer.twitter.com/en/developer-terms/agreement-and-policy).

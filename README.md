@@ -38,40 +38,55 @@ Script  | Description
 [visualization_weekly.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/visualizing/visualization_weekly.ipynb)  | Notebook for visualization of results grouped per week.
 [plots](https://github.com/havardMoe/Twitter_Sentiment/tree/main/code/visualizing/plots)  | Visualization output from notebooks saved as image files.
 
+
+
+  ```bash
+    pip install -r requirements.txt
+    ```
+
 <a name="guide"></a>
 ## Guide:  
 Short guide to fetch twitter data, write data to raw table, perfrom preprocessing, and do sentiment analysis.
-1. Fetch Twitter data by running the following command:
+1. Fetch Twitter data:
 
-    `python /scripts/fetch_twitter_data.py --from_time=YYYY-mm-ddTHH:MM:SSZ --to_time=YYYY-mm-ddTHH:MM:SSZ`
+    ```bash
+    python /scripts/fetch_twitter_data.py --from_time=YYYY-mm-ddTHH:MM:SSZ --to_time=YYYY-mm-ddTHH:MM:SSZ
+    ```
 
 2. Load copy data from `/data` folder to hdfs:
-
-    `/scripts/load_data_to_hdfs.sh`
+    ```bash
+    /scripts/load_data_to_hdfs.sh
+    ```
 
 3. Set up Hive database, read data from hdfs, and write to Hive table 'raw_data':  
-
-    `spark-submit /scripts/spark_set_up_raw_data.py`  
+    ```bash
+    spark-submit /scripts/spark_set_up_raw_data.py
+    ```  
 
 4. Clean data from 'raw_data' save to new table 'preprocessed_data':  
-
-    `spark-submit /code/preprocessing/preprocessing.py`  
+    ```bash
+    spark-submit /code/preprocessing/preprocessing.py
+    ```
 
 5. Perfrom sentiment analysis for TextBlob:  
-
-    `spark-submit /code/analysis/sentiment_analysis_textblob.py` 
+    ```bash
+    park-submit /code/analysis/sentiment_analysis_textblob.py
+    ```
 
 6. Perfrom sentiment analysis for VaderSentiment:  
-
-    `spark-submit /code/analysis/sentiment_analysis_vader.py`  
+    ```bash
+    spark-submit /code/analysis/sentiment_analysis_vader.py
+    ```
 
 7. Perfrom sentiment analysis for WordList 2477:  
-
-    `spark-submit /code/analysis/sentiment_analysis_wordlist2477.py`  
+    ```bash
+    spark-submit /code/analysis/sentiment_analysis_wordlist2477.py
+    ```
     
 8. Combine the different result tables for the analysers:  
-
-    `spark-submit /code/analysis/sentiment_analysis_wordlist2477.py`  
+    ```bash
+    /scripts/combine_results.py
+    ```
     
 
 ## Retrieved Data

@@ -25,18 +25,18 @@ Script  | Description
 [fetch_twitter_data.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/scripts/fetch_twitter_data.py)  | Fetches data from the Twitter API with tweepy
 [load_data_to_hdfs.sh](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/scripts/load_data_to_hdfs.sh)  | Used to load data from namenode into HDFS.
 [spark_set_up_raw_data.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/scripts/spark_set_up_raw_data.py)  | Set up raw data table in Hive and write in data.
-[set_up_hiveDB.sql](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/scripts/set_up_hiveDB.sql)  | Old file used to set up HiveDB directly in Hive.
+[set_up_hiveDB.sql](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/scripts/set_up_hiveDB.sql)  | Old file used to set up HiveDB directly in Hive.
 [preprocessing.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/preprocessing/preprocessing.py)  | Used to clean the data.
 [preproc_functions.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/preprocessing/preproc_functions.py)  | Functions used for preprocessing.
-[daily_wordlist_DF.py](https://github.com/havardMoe/Twitter_Sentiment/blob/d57f0d31b3ddcc0d452599b837c01e2d3aa31b5f/code/analysis/daily_wordlist_DF.py)  | Benchmark using MapReduce job on Spark DF.
-[daily_wordlist_MR.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/analysis/daily_wordlist_MR.py)  | Benchmark using MapReduce job on Spark RDD.
-[analysis.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/analysis/analysis.py)  | Contains functions and classes used for analysis.
+[daily_wordlist_DF.py](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/analysis/daily_wordlist_DF.py)  | Benchmark using MapReduce job on Spark DF.
+[daily_wordlist_MR.py](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/analysis/daily_wordlist_MR.py)  | Benchmark using MapReduce job on Spark RDD.
+[analysis.py](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/analysis/analysis.py)  | Contains functions and classes used for analysis.
 [sentiment_analysis_textblob.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/analysis/sentiment_analysis_textblob.py)  | Sentiment Analysis with TextBlob.
-[sentiment_analysis_vader.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/analysis/sentiment_analysis_vader.py)  | Sentiment Analysis with VaderSentiment.
-[sentiment_analysis_wordlist2477.py](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/analysis/sentiment_analysis_wordlist2477.py)  | Sentiment analysis with wordlist2477.
-[visualization_daily.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/visualizing/visualization_daily.ipynb)  | Notebook for visualization of results grouped per day.
-[visualization_weekly.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/visualizing/visualization_weekly.ipynb)  | Notebook for visualization of results grouped per week.
-[plots](https://github.com/havardMoe/Twitter_Sentiment/tree/main/code/visualizing/plots)  | Visualization output from notebooks saved as image files.
+[sentiment_analysis_vader.py](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/analysis/sentiment_analysis_vader.py)  | Sentiment Analysis with VaderSentiment.
+[sentiment_analysis_wordlist2477.py](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/analysis/sentiment_analysis_wordlist2477.py)  | Sentiment analysis with wordlist2477.
+[visualization_daily.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/visualizing/visualization_daily.ipynb)  | Notebook for visualization of results grouped per day.
+[visualization_weekly.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/visualizing/visualization_weekly.ipynb)  | Notebook for visualization of results grouped per week.
+[plots](https://github.com/havardMoe/Twitter_Sentiment/tree/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/visualizing/plots)  | Visualization output from notebooks saved as image files.
 
 
 <a name="guide"></a>
@@ -83,7 +83,7 @@ Short guide to fetch twitter data, write data to raw table, perfrom preprocessin
     spark-submit /scripts/combine_results.py
     ```
 
-9. Visualize plots by running the [visualization_daily.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/visualizing/visualization_daily.ipynb) and [visualization_weekly.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/c5bbb9a0e545c8305d869071e505ab6a631d7ca3/code/visualizing/visualization_weekly.ipynb) notebook files. (Images can be saved by pressing the save-symbol at the right).
+9. Visualize plots by running the [visualization_daily.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/visualizing/visualization_daily.ipynb) and [visualization_weekly.ipynb](https://github.com/havardMoe/Twitter_Sentiment/blob/f9253edb3affe3b40b68b7796c474d6c8e1bea88/code/visualizing/visualization_weekly.ipynb) notebook files. (Images can be saved by pressing the save-symbol at the right).
 
 
 ## Retrieved Data

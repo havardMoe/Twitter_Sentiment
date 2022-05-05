@@ -39,11 +39,6 @@ Script  | Description
 [plots](https://github.com/havardMoe/Twitter_Sentiment/tree/main/code/visualizing/plots)  | Visualization output from notebooks saved as image files.
 
 
-
-  ```bash
-    pip install -r requirements.txt
-    ```
-
 <a name="guide"></a>
 ## Guide:  
 Short guide to fetch twitter data, write data to raw table, perfrom preprocessing, and do sentiment analysis.
